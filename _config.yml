@@ -1,0 +1,59 @@
+# --- Sito ---
+title: "Nicolò Marana"
+tagline: "Tech · AI · Sviluppo"
+description: >-
+  Il blog di Nicolò Marana su tecnologia, intelligenza artificiale e
+  sviluppo software. Appunti, idee e analisi dal mondo tech.
+author:
+  name: "Nicolò Marana"
+  email: "nicolo.marana@gmail.com"
+
+# URL pubblico (GitHub Pages). Cambiare se si aggiunge un dominio custom.
+url: "https://j4rv1scl4w-maker.github.io"
+baseurl: "/light"
+
+lang: "it-IT"
+timezone: "Europe/Rome"
+
+# --- Social / link (lascia vuoto per nascondere) ---
+social:
+  github: "j4rv1scl4w-maker"
+  linkedin: ""
+  twitter: ""
+
+# --- Build ---
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
+
+# Paginazione lato listing fatta a mano nell'index (semplice e affidabile)
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# jekyll-feed
+feed:
+  path: feed.xml
+
+# --- Default front matter ---
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# --- Esclusioni ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - CONTRIBUTING.md
+  - .github

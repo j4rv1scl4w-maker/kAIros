@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post-header">
+    <a class="back-link" href="{{ '/' | relative_url }}">← Tutti gli articoli</a>
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%-d %B %Y" }}
+      </time>
+      {% if page.tags and page.tags.size > 0 %}
+      <span class="meta-sep">·</span>
+      <span class="post-tags">
+        {% for tag in page.tags %}<span class="tag">#{{ tag }}</span>{% endfor %}
+      </span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <a class="back-link" href="{{ '/' | relative_url }}">← Torna al blog</a>
+  </footer>
+</article>
