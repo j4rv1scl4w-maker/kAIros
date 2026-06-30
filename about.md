@@ -24,12 +24,26 @@ No fluff, no hype for its own sake — just substance.
 
 ## Who's behind it
 
-Kairos is written by **Nicolò Marana**, who works in technology, artificial
-intelligence and software development. Everything here comes from hands-on
-experience: things built, tools tested, ideas worth sharing.
+Kairos is written by **Nicolò Marana**, **Senior Generative AI Expert at
+JAKALA**.
 
-<!-- TODO: expand this short bio with details from LinkedIn
-     (current role, background, focus areas). -->
+My path in AI started in 2016 with **deep learning**, and took an early
+experimental turn with a Master's thesis that combined **deep learning** and
+**reinforcement learning** to build an autonomous trading agent. Since then
+I've followed the field as it moved from machine learning and NLP to today's
+**generative AI** and **agentic systems** — always with the same question in
+mind: how do these technologies become practical tools in real business
+contexts?
+
+I've been working hands-on with generative AI since 2021, from early
+GPT-based experimentation to enterprise use cases spanning **large language
+models, RAG, AI agents, workflow automation and business-tool integrations**.
+At JAKALA I work across AI agents, Copilot-based solutions, knowledge
+extraction, document intelligence, process automation and enterprise AI
+adoption.
+
+Today my focus is designing and delivering **AI-powered workflows** that
+connect business needs, technical feasibility and real-world adoption.
 
 {% if site.social.linkedin %}
 <p class="cta-row">
