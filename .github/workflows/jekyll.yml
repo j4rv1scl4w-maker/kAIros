@@ -31,6 +31,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        with:
+          # Attiva GitHub Pages automaticamente se non è ancora abilitato,
+          # così non serve toccare Settings → Pages manualmente.
+          enablement: true
 
       - name: Build con Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
