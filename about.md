@@ -24,8 +24,7 @@ No fluff, no hype for its own sake — just substance.
 
 ## Who's behind it
 
-Kairos is written by **Nicolò Marana**, **Senior Generative AI Expert at
-JAKALA**.
+Kairos is written by **Nicolò Marana**, a **Senior Generative AI Expert**.
 
 My path in AI started in 2016 with **deep learning**, and took an early
 experimental turn with a Master's thesis that combined **deep learning** and
@@ -38,7 +37,7 @@ contexts?
 I've been working hands-on with generative AI since 2021, from early
 GPT-based experimentation to enterprise use cases spanning **large language
 models, RAG, AI agents, workflow automation and business-tool integrations**.
-At JAKALA I work across AI agents, Copilot-based solutions, knowledge
+In my work I focus on AI agents, Copilot-based solutions, knowledge
 extraction, document intelligence, process automation and enterprise AI
 adoption.
 
