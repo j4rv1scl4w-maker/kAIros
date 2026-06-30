@@ -74,7 +74,6 @@ Save the file, commit and push. GitHub Pages rebuilds the site by itself in
 
 - ✅ Automatic **sitemap** (`/sitemap.xml`)
 - ✅ **Meta tags** Open Graph + Twitter Card on every page
-- ✅ **RSS feed** (`/feed.xml`)
 - ✅ **robots.txt** inviting search engines to index everything
 
 To speed up indexing on Google: register the site on

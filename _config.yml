@@ -7,7 +7,7 @@ description: >-
   from the tech world.
 author:
   name: "Nicolò Marana"
-  email: "nicolo.marana@gmail.com"
+  email: "marana.nicolo@gmail.com"
 
 # Public URL (GitHub Pages). Update if a custom domain is added.
 url: "https://j4rv1scl4w-maker.github.io"
@@ -19,7 +19,7 @@ timezone: "Europe/Rome"
 # --- Social / links (leave blank to hide) ---
 # For LinkedIn use just the username from linkedin.com/in/USERNAME
 social:
-  github: "j4rv1scl4w-maker"
+  github:
   linkedin: "nicolomarana"
   twitter:
 
@@ -29,13 +29,8 @@ highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-# jekyll-feed
-feed:
-  path: feed.xml
 
 # --- Default front matter ---
 defaults:

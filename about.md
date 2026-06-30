@@ -53,7 +53,6 @@ connect business needs, technical feasibility and real-world adoption.
 ## Stay in touch
 
 {% if site.social.linkedin %}- 💼 [LinkedIn](https://www.linkedin.com/in/{{ site.social.linkedin }}) — let's connect
-{% endif %}- ✉️ Email: <nicolo.marana@gmail.com>
-- 📡 [RSS feed]({{ '/feed.xml' | relative_url }}) — never miss an article
+{% endif %}- ✉️ Email: <marana.nicolo@gmail.com>
 
 > Got an idea, a question, or want to talk about a project? Reach out.

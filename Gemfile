@@ -4,7 +4,6 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"     # Feed RSS automatico
   gem "jekyll-sitemap", "~> 1.4"   # sitemap.xml per i motori di ricerca
   gem "jekyll-seo-tag", "~> 2.8"   # Meta tag SEO / Open Graph / Twitter Card
 end
