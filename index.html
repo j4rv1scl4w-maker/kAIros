@@ -1,24 +1,25 @@
 ---
 layout: default
-title: "Blog su Tech, AI e Sviluppo"
-description: "Il blog di Nicolò Marana su tecnologia, intelligenza artificiale e sviluppo software. Appunti, esperimenti e analisi dal mondo tech."
+title: "Tech, AI & Software"
+description: "Kairos — the personal blog of Nicolò Marana on technology, artificial intelligence and software development."
 ---
 <section class="hero">
   <p class="hero-eyebrow">{{ site.tagline }}</p>
-  <h1 class="hero-title">Ciao, sono <span class="accent">Nicolò Marana</span>.</h1>
+  <h1 class="hero-title"><span class="accent">Kairos</span></h1>
+  <p class="hero-lead">The right moment to make sense of tech &amp; AI.</p>
   <p class="hero-text">
-    Scrivo di tecnologia, intelligenza artificiale e sviluppo software.
-    Appunti, esperimenti e analisi su quello che costruisco e su dove sta
-    andando il mondo tech.
+    A publication on technology, artificial intelligence and software
+    development — notes, experiments and analysis on where the field is
+    heading. Written by <strong>Nicolò Marana</strong>.
   </p>
   <div class="hero-actions">
-    <a class="btn btn-primary" href="#articoli">Leggi gli articoli</a>
-    <a class="btn btn-ghost" href="{{ '/about/' | relative_url }}">Chi sono</a>
+    <a class="btn btn-primary" href="#articles">Read the articles</a>
+    <a class="btn btn-ghost" href="{{ '/about/' | relative_url }}">About Kairos</a>
   </div>
 </section>
 
-<section id="articoli" class="post-list-section">
-  <h2 class="section-title">Ultimi articoli</h2>
+<section id="articles" class="post-list-section">
+  <h2 class="section-title">Latest articles</h2>
   {% if site.posts.size > 0 %}
   <ul class="post-list">
     {% for post in site.posts %}
@@ -43,6 +44,6 @@ description: "Il blog di Nicolò Marana su tecnologia, intelligenza artificiale 
     {% endfor %}
   </ul>
   {% else %}
-  <p class="empty-state">Ancora nessun articolo. Il primo arriva presto. 🚀</p>
+  <p class="empty-state">No articles yet. The first one is coming soon. 🚀</p>
   {% endif %}
 </section>

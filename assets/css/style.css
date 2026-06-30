@@ -125,11 +125,18 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
   background-clip: text;
   color: transparent;
 }
+.hero-lead {
+  font-size: clamp(1.15rem, 4.5vw, 1.5rem);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--text);
+  margin: 0 0 18px;
+}
 .hero-text {
   color: var(--text-soft);
   font-size: 1.08rem;
   margin: 0 0 26px;
-  max-width: 42ch;
+  max-width: 46ch;
 }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 
@@ -287,6 +294,8 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 .post-content th { background: var(--bg-soft); }
 
 .post-footer { margin-top: 48px; padding-top: 22px; border-top: 1px solid var(--border); }
+
+.cta-row { margin: 22px 0 8px; }
 
 /* --- Page --- */
 .page-header { margin: 8px 0 30px; }
