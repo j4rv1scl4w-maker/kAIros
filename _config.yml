@@ -9,9 +9,10 @@ author:
   name: "Nicolò Marana"
   email: "marana.nicolo@gmail.com"
 
-# Public URL (GitHub Pages). Update if a custom domain is added.
-url: "https://j4rv1scl4w-maker.github.io"
-baseurl: "/kAIros"
+# Public URL. Served from the domain root on Cloudflare, so baseurl is empty.
+# TODO: set `url` to the final custom domain once connected on Cloudflare.
+url: ""
+baseurl: ""
 
 lang: "en"
 timezone: "Europe/Rome"
